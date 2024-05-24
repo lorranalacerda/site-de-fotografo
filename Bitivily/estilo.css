@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+  }
+  html ::-webkit-scrollbar-thumb {
+    background: #ffeb9b;
+  }
+  html ::-webkit-scrollbar-track {
+    background: #5A3021;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+
+}
+
+header{
+    display: flex;
+    background-color: #D6AB6C;
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around
+}
+
+.logo p{
+    margin-left: 45%;
+    width: 25%;
+    font-family: "MonteCarlo", serif;
+    font-size: 50px;
+    margin-top: -20px;
+    font-weight: none;
+}
+
+.navbar{
+    display: flex;
+    gap: 4rem;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #2e150c;
+}
+
+.navbar a:hover{
+    border-top: 4px solid #5A3021;
+}
+
+.contrate{
+    background-color: #ffeb9b;
+    color: #5A3021;
+    margin-left: 1rem;
+    border-radius: 15px;
+    padding: 12px;
+    font-size: 20px;
+    border-color: #D6AB6C;
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    margin-top: 10px;
+}
+
+.contrate:hover{
+    background-color: #5A3021;
+    color: #2e150c;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.a1 {
+    color: #2e150c;
+    text-decoration: none;
+}
+
+.a1:hover {
+    color: #D6AB6C;
+}
+
+.inicio{
+    background-image: url(imagens/background.jpg);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.texto1 {
+    align-items: center;
+    padding-left: 70px;
+}
+
+.texto1 span{
+    align-items: center;
+    padding-left: 70px;
+    font-family: "Great Vibes", serif;
+    font-size: 6rem;
+    line-height: 70px;
+}
+
+.texto1 p{
+    align-items: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    line-height: 1.7rem;
+}
+
+.contrate2{
+    background-color: #5A3021;
+    color: #ffeb9b;
+    margin-left: 5rem;
+    border-radius: 15px;
+    padding: 12px;
+    font-size: 20px;
+    border-color: #D6AB6C;
+    cursor: pointer;
+    width: 13rem;
+    height: 3rem;
+    border: none;
+    margin-top: 10px;
+}
+
+.contrate2:hover{
+    background-color: #ffeb9b;
+    color: #2e150c;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.a2{
+    color: #D6AB6C;
+    text-decoration: none;
+}
+
+.a2:hover {
+    color: #2e150c;
+}
+
+.polaroid1 {
+    width: 100%;
+    padding-right: 2rem;
+    display: flex;
+}
+
+.polaroid1 img{
+    width: 600px;
+}
+
+.servicos{
+    background-image: url(imagens/background-servicos.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    padding-top: 14rem;
+    padding-bottom: 13rem;
+}
+
+.conheca{
+    color: #ffeb9b;
+    padding: 40px;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 10rem;
+    line-height: 4rem;
+}
+
+.conheca span{
+    font-family: "Great Vibes", serif;
+    font-size: 120px;
+}
+
+.card-servicos .cards{
+    display: flex;
+    align-items: center;
+    background-image: url(imagens/background-card.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    color: #ffeb9b;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+
+.card-servicos span{
+    font-family: "MonteCarlo", serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card-servicos p{
+    font-size: 19px;
+}
+
+.card1{
+    background-color: #5A3021;
+    width: 300px;
+    height: 300px;
+    border-radius: 8%;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+
+
+.card2{
+    background-color: #5A3021;
+    width: 300px;
+    height: 300px;
+    border-radius: 8%;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+
+.card3{
+    background-color: #5A3021;
+    width: 300px;
+    height: 300px;
+    border-radius: 8%;
+    padding: 35px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.card4{
+    background-color: #5A3021;
+    width: 300px;
+    height: 300px;
+    border-radius: 8%;
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.experiencia{
+    background-image: url(imagens/background-servicos.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    padding-top: 14rem;
+    padding-bottom: 10rem;
+}
+
+.saiba{
+    color: #ffeb9b;
+    padding: 40px;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 10rem;
+    line-height: 4rem;
+}
+
+.saiba span{
+    font-family: "Great Vibes", serif;
+    font-size: 120px;
+}
+
+.exp{
+    background-image: url(imagens/background.jpg);
+    display: flex;
+    padding: 90px;
+}
+
+.exp p{
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 30px;
+    text-align: justify;
+    color: #000;
+}
+.fotos{
+    background-image: url(imagens/background.jpg);
+    display: flex;
+}
+.fotos p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+.foto1 img{
+    width: 200px;
+    margin: 30px;
+    display: flex;
+}
+
+.foto1{
+    margin-left: 150px;
+}
+
+.foto2 img {
+    width: 200px;
+    margin: 30px;
+    display: flex;
+}
+
+.foto3 img {
+    width: 200px;
+    margin: 30px;
+    display: flex;
+}
+
+.foto4 img {
+    width: 200px;
+    margin: 30px;
+    display: flex;
+}
+
+.contato{
+    background-color: #CB9F5E;
+    padding: 35px;
+}
+
+.contato p{
+    font-size: 30px;
+}
+
+.contato span{
+    font-family: "MonteCarlo", serif;
+    font-size: 50px;
+}
